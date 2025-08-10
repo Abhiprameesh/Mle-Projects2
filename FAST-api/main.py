@@ -13,7 +13,7 @@ items = []
 def read_root():
     return {"message": "Hello, My name is Abhinand"}
 
-# Create an item (POST)
+
 @app.post("/items/")
 def create_item(item: str):
     items.append(item)
